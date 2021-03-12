@@ -64,9 +64,42 @@ ul{
 }
 body.home #navegacao a#home,
 body.brasil #navegacao a#brasil,
-body . #internacional a#internacional,
+body .internacional  #navegacao a#internacional
 {
  color:#fff ;
 background:#de003e ;
 cursor:text ;
+}
+/*Configura Layout de três Colunas */
+#conteudo{
+    margin-top: 60px;
+    background:#f5f5f5;
+}
+#primario{
+    width:270px;
+    float:left;
+    margin:0 0 20px 195px;
+    background:blueviolet ;
+}
+#secundario{
+    width:270px;
+    float:left;
+    margin:0 0 20px 15px;
+    background:purple;
+}
+#lateral{
+    width: 180px;
+    float:left;
+    margin:0 0 20px -750px;
+    background: red;
+}
+ /*Rodape*/
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+#rodape{
+    width: 750px; 
+    margin:0 auto ;
+    color:#fff;
 }
