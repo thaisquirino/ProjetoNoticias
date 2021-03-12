@@ -10,7 +10,7 @@ body{
 }
 
 #container{
- width: 500px;
+ width: 750px;
  margin:0 auto;
 
 }
@@ -26,7 +26,7 @@ body{
     width:152px;
     height: 66px;
     background: url(../imagens/imagens/logo.png) no-repeat center;
-    text-indent: 300;
+    text-indent: -3000px;
 }
 /* barra de navegação*/
 
@@ -59,6 +59,14 @@ ul{
 #topo ul .primeiro a{
     background: none;
 }
-#topo ul  a:hover{
-    
+#topo ul  a:hover {
+    color:#69001d; 
+}
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body . #internacional a#internacional,
+{
+ color:#fff ;
+background:#de003e ;
+cursor:text ;
 }
