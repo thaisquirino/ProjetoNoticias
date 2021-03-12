@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding:0;
+    list-style: none;
 }
 
 body{
@@ -19,11 +20,45 @@ body{
     background: url(../imagens/imagens/detalhe-topo.png) no-repeat right top;
     padding-top:25px;
 
-    border:1px solid rgb(60, 61, 121);
+    
 }
 .logo{
     width:152px;
     height: 66px;
     background: url(../imagens/imagens/logo.png) no-repeat center;
     text-indent: 300;
+}
+/* barra de navegação*/
+
+ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul {
+    margin-top: 10px;
+    background: #b10333;
+    float:left;
+
+}
+
+#topo ul li{
+    float:left ;
+}
+#topo ul a {
+    font-size:0.9em;
+    display:block;
+    padding:0.5em  1.5em;
+    line-height: 2.1em;
+    text-decoration:none ;
+    color:#fff;
+    background: url(../imagens/imagens/divisor.png) no-repeat left center; 
+}
+
+#topo ul .primeiro a{
+    background: none;
+}
+#topo ul  a:hover{
+    
 }
