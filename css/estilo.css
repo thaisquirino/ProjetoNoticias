@@ -37,7 +37,7 @@ ul{
 }
 
 #topo ul {
-    margin-top: 10px;
+    margin-top: 30px;
     background: #b10333;
     float:left;
 
@@ -79,7 +79,7 @@ cursor:text ;
     width: 180px;
     float: left;
     margin: 0 0 20px -750px;
-    background: red;
+   
 }
 #tres-colunas #primario{
     width: 270px;
@@ -126,6 +126,25 @@ h2{
     padding: 5px;
     margin-top: 5px;
 }
+
+/* Formatar menus laterais*/
+#lateral ul a{
+    font-size:0.9em;
+    padding:3px;
+    display: block;
+    line-height:30px ;
+    color:#000;
+    text-decoration: nome;
+    border-bottom: 1px solid #f3f3f3;
+}
+#lateral ul a:hover{
+    background: #f9f9f9 url(..imagens/imagens/marcador.png)  no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+
+}
+
+
 
  /*Rodape*/
 #container-rodape{
