@@ -29,7 +29,16 @@ body{
     text-indent: -3000px;
 }
 /* barra de navegação*/
+ 
+a:link, a:visited {
+    color:#b10333;
+    padding:2px;
+}
 
+
+a:hover{
+    color:#e50040;
+}
 ul{
     margin:0;
     padding: 0;
@@ -81,17 +90,12 @@ cursor:text ;
     margin: 0 0 20px -750px;
    
 }
-#tres-colunas #primario{
-    width: 270px;
-    float:left;
-    margin:0 0 20px 195px;
-    background:blue ; 
-}
+
 #primario {
     width: 270px;
     float:left;
     margin:0 0 20px 195px;
-    background:blueviolet ;
+    
 }
 
 #duas-colunas #primario {
@@ -107,7 +111,7 @@ cursor:text ;
     width:270px;
     float:left;
     margin:0 0 20px 15px;
-    background:purple;
+  
 }
 /*Caixa*/
 .caixa {
@@ -138,12 +142,81 @@ h2{
     border-bottom: 1px solid #f3f3f3;
 }
 #lateral ul a:hover{
-    background: #f9f9f9 url(..imagens/imagens/marcador.png)  no-repeat left center;
+    background: #f9f9f9 url(..imagens/imagens/marcador.png) no-repeat left center;
     padding-left: 20px;
     color: #a1a1a1;
 
 }
 
+/*Formantando formularios */
+label{
+    display:block;
+    cursor:pointer; */
+}
+input{
+    padding: 5px;
+    width: 125px;
+    font-size:0.9em;
+   background-color: #fff;
+
+}
+input.submit{
+    width: 80px;
+    color:#fff;
+    background-color:#b10333 ;
+    border:2px solid #870529;
+   
+}
+/*Formatando imagens*/
+
+img.imgem-principal{
+    width:98%;
+    border: 3px solid #dfdfdf;
+  
+}
+/*Formatando cabeçalhos*/
+.h3{
+    text-transform: uppercase;
+    background-color: #de003e;
+    display:inline;
+    font-size:0.8em;
+    padding: 3px;
+
+}
+.entrevista h3 {
+    background:none;
+   
+}
+/*Formantando lista de notícias*/
+#lista-noticias li{
+    padding:2px;
+    border-bottom:1px solid #ccc;
+    height: 62px ;
+}
+#lista-noticias li a img{
+    float: left;
+    margin:5px;
+
+}
+#lista-noticias li a {
+    text-decoration:none ;
+    
+}
+#lista-noticias li a h3{
+    font-size: 0.8em;
+    padding:0;
+    color:#3e7ab9;
+
+}
+#listas-noticias li a p {
+    font-size:0.7em;
+    color:#000;
+
+}
+#listas-noticias li:hover{
+  background:#eee;
+  cursor:pointer;
+}
 
 
  /*Rodape*/
@@ -155,4 +228,5 @@ h2{
     width: 750px; 
     margin:0 auto ;
     color:#fff;
+    cursor: pointer;
 }
